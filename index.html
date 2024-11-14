@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search Engine</title>
     <link rel="stylesheet" href="style.css">
-    <title>QR Code</title>
+    <link: //fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <p>Enter your text or URL</p>
-        <input type="text" placeholder="Text or URL" id="qrText">
-        <div id="imgBox">
-            <img src="" id="qrImg">
-        </div>
-        <button onclick="generateQR()">Generate QR Code</button>
-    </div>
 
+<body>
+    <h1>Image Search Engine</h1>
+    <div class="input">
+        <input id="search-box" type="text" placeholder="Search Anything Here">
+        <button id="search-button">Search</button>
+    </div>
+    <div class="search-result-container">
+        <div id="search-result" class="search-result"></div>
+    </div>
+    <div class="show-more-div">
+        <button id="show-more" class="show-more hide">Show More</button>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
